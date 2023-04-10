@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Menu = ({ items }) => {
   return (
     <div className="section-center">
       {items.map((item) => {
-        const { id, title, img, desc, price } = item;
+        const { id, title, img, desc, price, URL } = item;
+        console.log(item.URL)
         return (
           <article key={id} className="menu-item">
             <img src={img} alt={title} className="photo" />
@@ -13,7 +15,10 @@ const Menu = ({ items }) => {
                 <h4>{title}</h4>
                 <h4 className="price">cue {price}</h4>
               </header>
-              <p className="item-text">{desc}</p>
+              <p className="item-text">{desc}</p> 
+                <a href={URL}>{URL} View</a>
+
+             
             </div>
           </article>
         );
@@ -21,5 +26,5 @@ const Menu = ({ items }) => {
     </div>
   );
 };
-
+  
 export default Menu;

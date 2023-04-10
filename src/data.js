@@ -6,22 +6,25 @@ const menu = [
       price: 15.99,
       img: './images/item-1.png',
       desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+      URL: 'https://www.foxnews.com/live'
     },
     {
       id: 2,
-      title: 'dunno',
-      category: 'E',
-      price: 13.99,
-      img: './images/item-2.png',
-      desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+      title: 'Americas Newsroom',
+      category: 'J',
+      price: 20,
+      img: './images/item-11.jpeg',
+      desc: `Americas Newsroom runs from 9-11a weekdays. Pre-pro at 8a. Cue 20. Make sure sure G1 and G2 turn subs are responsive. Subs are used at directors request to accomodate camera angle changes during interviews. If Martha, Sandra, or Maria are guests they require an eyelight which is always in lighting room and can be plugged into an edison extension chord under the stairs which operates off of channel 500. Americas Newsroom is mostly all inclusive with a walk in, front touch stand and interview position already lit. `,
+      URL: 'https://www.foxnews.com/live'
     },
     {
       id: 3,
-      title: 'godzilla milkshake',
-      category: 'N',
-      price: 6.99,
-      img: './images/item-3.png',
-      desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+      title: 'Faulkner Focus',
+      category: 'M',
+      price: 40,
+      img: './images/faulkner.webp',
+      desc: `Go to cue 40 on GIO, Make sure hoists are gridded. Check with stage manager if there are to be any guests and if so determine if they'll be upstairs or downstairs for the segment. Any downstairs interviews will be conducted at " Faulkner Stools Position" with hoists and chandelier at outnumbered position. Find the magic sheet titled "Interview" to make appropriate adjustments. Make sure appropriate ND and/or scrim has been brought to contest any overexposure from sunlight. Communicate with Camera person and Stage Manager to determine if elevators are needed for camera location movement. Make sure south scrims are adequately blocking sunlight which is extreme at that time in mid afternoon. Frequently the operator on Faulkner Focus will also work Outnumbered which comes directly after Focus. This makes it necessary to pre-pro for outnumbered as well. Pre-pro for outnumbered includes making sure all units are operational, the hoists and chandelier are responsive to "outnumbered" positions, windows are un-fogged, batteries for floor table unit LED's are charged and the units themselves turned on so they'll be ready once you go to Outumbered Cue.`,
+      URL: 'https://www.foxnews.com/live'
     },
     {
       id: 4,
@@ -30,6 +33,7 @@ const menu = [
       price: 20.99,
       img: './images/item-4.png',
       desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+      URL: 'https://www.foxnews.com/live'
     },
  
     {
@@ -47,30 +51,29 @@ const menu = [
       price: 8.99,
       img: './images/item-7.png',
       desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+      URL: 'https://www.foxnews.com/live'
     },
     {
       id: 8,
-      title: 'american classic',
+      title: 'The Story',
       category: ' M',
-      price: 12.99,
-      img: './images/item-8.png',
-      desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+      price: 100,
+      img: './images/marth.webp',
+      desc: `cue 100 Hoist are 1 and 12 are independently lowered for a few seconds. Chandelier at "The Story" position. An eye light is an essential aspect to the lighting schema and can be connected by DMX and Edison cable which lives by Footer of the Video Screen behind the cameras positioned for "The Story". Make sure eye light is positioned optimally. Check with stage manager to see if guests are arriving and make adequate spot checks to make sure units are in place. The midday sunlight is oft an issue so make sure to use scrims and ND's whenever appropriate. `,
+      URL: 'https://www.foxnews.com/live'
     },
     {
       id: 9,
       title: 'America Reports',
-      category: ' J',
-      price: 51,
+      category: 'J',
+      price: 51.1,
       img: './images/item-9.webp',
-      desc: `cue 51. Sandra always gets an eyelight.`,
+      desc: `America Reports is a daily weekday show from 1-3p. cue 50.1. Sandra requires an eye light which is controlled with channel 500.`,
+      URL: 'https://www.foxnews.com/live'
     },
-    {
-        id: 10,
-        title: 'Americas Newsroom',
-        category: ' J',
-        price: 20,
-        img: './images/item-11.jpeg',
-        desc: `cue 20,turn subs g1 g2, g1+g2 inclusive.`,
-      },
+
   ];
   export default menu;
+
+
+//add url to the object
