@@ -28,9 +28,9 @@ const menu = [
     },
     {
       id: 4,
-      title: 'country delight',
+      title: 'Coast to Coast',
       category: 'G',
-      price: 20.99,
+      price: 50.1,
       img: './images/item-4.png',
       desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
       URL: 'https://www.foxnews.com/live'
@@ -56,7 +56,7 @@ const menu = [
     {
       id: 8,
       title: 'The Story',
-      category: ' M',
+      category: 'M',
       price: 100,
       img: './images/marth.webp',
       desc: `cue 100 Hoist are 1 and 12 are independently lowered for a few seconds. Chandelier at "The Story" position. An eye light is an essential aspect to the lighting schema and can be connected by DMX and Edison cable which lives by Footer of the Video Screen behind the cameras positioned for "The Story". Make sure eye light is positioned optimally. Check with stage manager to see if guests are arriving and make adequate spot checks to make sure units are in place. The midday sunlight is oft an issue so make sure to use scrims and ND's whenever appropriate. `,

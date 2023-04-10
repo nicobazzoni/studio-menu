@@ -40,6 +40,12 @@ a{
   text-decoration: none;
   color: hsl(209, 61%, 16%);
 }
+span{
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  color: hsl(291, 100%, 58%);
+}
+
 
 .section {
   width: 90vw;
