@@ -1,11 +1,11 @@
 const menu = [
     {
       id: 1,
-      title: 'buttermilk pancakes',
+      title: 'Varney & Co',
       category: 'D',
-      price: 15.99,
-      img: './images/item-1.png',
-      desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+      price: 20,
+      img: './images/varney.png',
+      desc: `Cue 20. subs- Dmon2 S/U, pay close attenbtion to sunlight in background and make sure to use scrims and ND's when appropriate.  `,
       URL: 'https://www.foxnews.com/live'
     },
     {
@@ -38,19 +38,19 @@ const menu = [
  
     {
       id: 6,
-      title: 'oreo dream',
-      category: ' H',
-      price: 18.99,
-      img: './images/item-6.png',
-      desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+      title: 'Fox and Friends',
+      category: 'M',
+      price: 20,
+      img: './images/fandf.png',
+      desc: `Cue 20. Fox and Friend is an elaborate three hour show that occupies the entire studio M, utilizing at least ten looks a show. Please be sure to check that hoists and chandelier are operational and that all units are responsive to level adjustments. Bring up four faders for Home base, weather stand, News Stand and Fishbowl. The hoists and chandelier are gridded for the mezzanine look. S ave for Fishbowl, any positions downstairs like Living Room or Demo require the hoists to be lowered to "F & F Trim" and the chandelier onto outnumbered position for critical soft ambient light.`,
     },
     {
       id: 7,
-      title: 'bacon overflow',
-      category: ' E',
+      title: 'The BIG Saturday Show',
+      category: 'D',
       price: 8.99,
-      img: './images/item-7.png',
-      desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+      img: './images/big.webp',
+      desc: `Show: Cue 40: Big Sat/Sunday Show. Sub. 11: B. SAT. Show floor gobo… Sub 12: B. SUN. Show floor gobo. Collect the 3 pieces (Left, Center & Right) of B.S.S. desk and red oval rug from 12th floor behind Studio W. Transport down West Side elevator to Studio D. Align Red oval rug with black gaff spike marks. Place 3 desk pieces in general spike mark vicinity. Connect power & Ethernet, housed in BOTTOM of desk recesses, between the 3 desk pieces. 3 desk pieces connect through interlocking teeth plates into desk TOP recesses. Once pushed together use Long T Coffin Lock key to lock 3 desk pieces together. COUNTER Clock wise to tighten locks. CLOCKWISE to loosen. Engage desk floor stoppers once desk in place and locked together. Connect Terminal Blocks under desk top between Left + Center desk pieces and Center + Right desk pieces. Grab power & DMX run for desk stored in Southeast corner of studio. Plug into Desk piece Stage Right/Cam left. Slide D MON 5 into place. (ALL D mons spiked.). EAST Saw Tooth in play, spiked. 12. EAST WALL: D Mons 3-1, 2 & 3 all in play. MOVING Touch Screen along EAST wall spiked for jib bumps. SUB 34 built for stand ups but has not been in play yet. WEST WALL: D Mons 2-1, 2 & 3 all in play. Mullions NOT in play. Belly marks for hosts 1-4 but show is also lit for 5th position for on set guest. SHOW STRIKE: Dismantle 3 desk pieces. Cover up with their packing blanket covering. Return pieces with rolled up red rug to to 12th floor to be stored behind Studio W. `,
       URL: 'https://www.foxnews.com/live'
     },
     {
